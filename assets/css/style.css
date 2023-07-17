@@ -133,8 +133,15 @@
     color: rgb(218, 183, 30);
 }
 
-/* main part styles end  */
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: end;
+    margin-right: 210px;
+}
 
+/* main part styles end  */
 
 /* responsive start  */
 
@@ -143,6 +150,7 @@
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
+        padding: 30px 100px;
     }
 
     .nav-item-container {
@@ -153,10 +161,12 @@
         margin: 5px;
         padding: 0px 10px;
         font-size: 1rem;
+        margin: 10px 70px;
     }
 
     .nav-container h3 {
         font-size: 3rem;
+
     }
 
     .banner-container {
@@ -173,6 +183,17 @@
         flex-direction: column;
         margin: 0px 220px;
         align-items: center;
+    }
+
+    .Popular-collection-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 70px;
+        gap: 10px;
+    }
+
+    .see-more {
+        text-align: end;
+        margin-right: 80px;
     }
 }
 
@@ -206,5 +227,15 @@
         flex-direction: column;
         margin: 0px 220px;
         align-items: center;
+    }
+
+    .Popular-collection-container {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px 70px;
+        gap: 30px;
+    }
+
+    .see-more {
+        margin-right: 80px;
     }
 }
