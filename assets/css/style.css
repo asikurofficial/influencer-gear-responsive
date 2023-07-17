@@ -31,6 +31,8 @@
     margin-right: 35px;
 }
 
+/* banner style */
+
 .banner-container {
     display: flex;
     padding: 120px 150px;
@@ -72,6 +74,8 @@
     background-repeat: no-repeat;
 }
 
+/* sponsor style  */
+
 .sponsor {
     display: flex;
     justify-content: space-between;
@@ -86,6 +90,7 @@
 /* header styles end */
 
 /* main part styles start  */
+
 .main-heading {
     color: #3A3A3A;
     font-size: 1.5rem;
@@ -94,6 +99,8 @@
     text-align: center;
     margin-top: 30px;
 }
+
+/* popular style  */
 
 .Popular-collection-container {
     display: grid;
@@ -141,6 +148,8 @@
     margin-right: 210px;
 }
 
+/* featured styles start */
+
 .featured-products-container {
     display: flex;
     justify-content: space-evenly;
@@ -183,6 +192,28 @@ span {
 }
 
 /* main part styles end  */
+
+/* footer styles start */
+footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+footer p,
+h3 {
+    color: #FFF;
+    margin: 20px auto;
+}
+
+.f-icons {
+    color: white;
+    padding: 10px;
+    background: rgb(39, 39, 39);
+    border-radius: 50px;
+}
+
+/* footer styles end */
 
 /* responsive start  */
 
