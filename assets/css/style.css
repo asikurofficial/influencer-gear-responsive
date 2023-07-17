@@ -9,8 +9,8 @@
 /* header styles start */
 .nav-container {
     display: flex;
-    justify-content: space-between;
-    padding: 120px 150px;
+    justify-content: space-around;
+    padding: 120px 100px;
 }
 
 .nav-container h3 {
@@ -200,8 +200,11 @@ footer {
     padding: 70px 0px;
 }
 
-footer p,
-h3 {
+footer p {
+    color: #FFF;
+    margin: 20px auto;
+}
+footer h3 {
     color: #FFF;
     margin: 20px auto;
 }
